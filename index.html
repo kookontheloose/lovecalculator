@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=, initial-scale=1.0" />
+    <title>L0VE CALCULATOR</title>
+    <link rel="icon" type="image/x-icon" href="./PUBLIC/favicon.ico" />
+    <link
+      href="https://unpkg.com/nes.css@2.3.0/css/nes.min.css"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <script src="./index.js" async></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+
+  <body>
+    <div id="main-page">
+      <header><h1 class="glitter-text">LOVE CALCULATOR</h1></header>
+      <div id="main-text">
+        <p id="always-show">
+          Welcome to the cure to uncover the secrets of your soulmate status!
+          Have you ever wondered if you and your crush are a match made in
+          heaven? Or perhaps you’re itching to unravel the enigma of your
+          romantic chemistry?? Well, buckle up because the Love Calculator is
+          here to dish out the answers!
+        </p>
+        <p class="screen-full">
+          Whether you’re a hopeless romantic or a skeptic in disguise, the Love
+          Calculator invites you to explore the magic of love in all its glory!
+          The Love Calculator is your go-to guru for matters of the heart.
+        </p>
+        <p class="screen-full">
+          So, what are you waiting for? Take your phone off the hook, crank up
+          the Spice Girls, and let’s dial up the love vibes with the Love
+          Calculator! Just type in your full names below, hit that button, and
+          let the magic unfold.
+        </p>
+      </div>
+    </div>
+
+    <div id="love-score">
+      <header>
+        <h3 class="glitter-text">Your love score is</h3>
+        <h1 class="glitter-text" id="score">00%</h1>
+        <p id="runDown"></p>
+      </header>
+    </div>
+
+    <div>
+      <img
+        id="butterfly"
+        src="./PUBLIC/vecteezy_gray-butterfly-glitter-on-transparent-background-butterfly_29722853.png"
+        alt=""
+      />
+    </div>
+
+    <div id="inputs">
+      <div class="nes-field">
+        <label for="name_field">Your name:</label>
+        <input type="text" id="name_field" class="nes-input" />
+      </div>
+      <div class="nes-field">
+        <label for="name_field">Your crush's name</label>
+        <input type="text" id="name_field" class="nes-input" />
+      </div>
+    </div>
+
+    <div>
+      <button type="button" class="nes-btn is-success">calculate</button>
+    </div>
+  </body>
+</html>

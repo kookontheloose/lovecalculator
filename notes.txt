@@ -1,0 +1,43 @@
+
+
+current favorite gif background for h1 :
+https://i.pinimg.com/originals/78/36/be/7836bebefc157a613f1cf99fd56edd12.gif
+
+
+THINKING THROUGH THE PROGRAM------
+
+randomNumber holds the the number we need to display 
+
+it will run at the top of the page and hold its value until the page is run again
+
+(i think it needs to be moved outside of the love calculator function)
+
+calculate love score uses randomNumber but its main function is to return a paragraph based on what randomNumber is. 
+
+we need to call it and display its VALUE when the button is pushed.
+
+should we use addEventListener("click", thenCallAFunctionThatSwapsOutTheText())
+
+this is how we grab the main text to swap it out. It needs to go in a function so we can grab it easily---------
+
+document.querySelector("#main-text).
+innerHTML="
+    <h1>
+        value of randomNumber?
+    </h1>
+    <p>
+        value of calculateLoveScore?
+    </p>"
+
+(again - we need to move randomNumber outside of the main function so we can add a couple more functions to the index.js file that also use the randomNumber variable with it staying constant for each function use)
+
+
+I think we need to either inject the number back into the javascript 
+
+OR 
+
+somehow capture each version of what we want to return (the number and the paragraphs) into divs with specific IDs and return those IDs 
+
+either way we have to write JS into HTML somehow or write HTML into JS somehow.
+
+we can glitter up the number just like we did the giant sparkle text
